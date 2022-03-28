@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.auth-template{
+    background:black;
+    height:100vh;
+}
+.auth_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top:48px;
+}
+#auth_banner_img{
+    width:100%;
+}
+#auth_head{
+    color:white;
+    font-size:2.5rem;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Carter One', cursive;
+    letter-spacing:2px;
+}
+.auth_intro{
+    text-align:center;
+    padding:10px 65px;
+}
+.auth_intro form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.input_field{
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding-left:10px;
+    font-size:1.2rem;
+    font-family: 'Carter One', cursive;
+    letter-spacing:2px;
+    padding:6px 10px;
+    margin:10px 0;
+    width:100%;
+}
+.auth_button{
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding:10px;
+    font-size:1.2rem;
+    font-family: 'Carter One', cursive;
+    letter-spacing:2px;
+    background:rgb(52, 134, 70);
+    color:white;
+    cursor:pointer;
+    margin:10px 0;
+    width:100%;
+}
+#acc_have{
+    color:white;
+    font-size:1.2rem;
+    font-family: 'Carter One', cursive;
+    letter-spacing:2px;
+    text-align:center;
+    cursor:pointer;
+}

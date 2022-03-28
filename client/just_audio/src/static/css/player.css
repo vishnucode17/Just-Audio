@@ -1,0 +1,27 @@
+.playback_div{
+    height:100vh;
+}
+.player_banner {
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    background-color:#1a1a1a;
+}
+.player_banner img{
+    height:85vh;
+    border-radius:10px;
+    border:2px solid #fff;
+}
+.playback_controls{
+    display:flex;
+    position:sticky;
+    bottom: 0;
+    background:rgba(0,0,0);
+    justify-content:center;
+    z-index: 900;
+}
+#play_btn{
+    border-radius: 100px;
+    outline: none;
+    border:none;
+}

@@ -1,0 +1,18 @@
+.feedOptions{
+    display:flex;
+    align-items:center;
+    margin-top:15px;
+    color: grey;
+    padding:10px;
+    cursor: pointer;
+}
+.feedOptions:hover{
+    color: black;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+.feedOptions > h4{
+    margin-left:5px;
+    font-size:13px;
+    font-weight:500;
+}

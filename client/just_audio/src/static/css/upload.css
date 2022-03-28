@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upload_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.upload_section_title img{
+    width: 100%;
+}
+.upload__form form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin:10px;
+}
+.upload__form button{
+    padding:10px;
+    font-size:18px;
+    border:none;
+    border-radius: 20px;
+    background:black;
+    color:white;
+    cursor: pointer;
+}
